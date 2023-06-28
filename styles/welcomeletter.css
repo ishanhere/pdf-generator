@@ -1,0 +1,50 @@
+.welcomeletter_container {
+  font-family: "Times New Roman", Times, serif;
+  padding: 0px;
+  -webkit-print-color-adjust: exact;
+}
+
+.table_client {
+  border: 1px solid black;
+  width: 100%;
+  text-align: left;
+  margin-top: 15px;
+  /* border-collapse: collapse; */
+}
+.table_client td {
+  border: 1px solid black;
+  /* border-collapse: collapse; */
+
+  text-align: left;
+  padding: 10px;
+}
+.table_accounts {
+  border: 1px solid black;
+  width: 100%;
+  text-align: left;
+  margin-top: 15px;
+  page-break-inside: avoid;
+}
+.table_accounts td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 10px;
+}
+.table_funding {
+  page-break-inside: avoid;
+}
+.table_funding td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+.footer-line-1 {
+  position: absolute;
+  bottom: 25px;
+  right: 285px;
+}
+.footer-line-2 {
+  position: absolute;
+  bottom: 5px;
+  right: 180px;
+}

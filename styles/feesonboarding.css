@@ -1,0 +1,9 @@
+.fees_container {
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  padding: 0px;
+  -webkit-print-color-adjust: exact;
+}
+
+.fees_background {
+  background-color: #faf9f6;
+}

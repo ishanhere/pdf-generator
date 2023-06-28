@@ -1,0 +1,14 @@
+.definitions-container_tax {
+  display: flex;
+  width: 100%;
+}
+
+.definitions-container_first_tax {
+  display: flex;
+  width: 30%;
+}
+
+.definitions-container_last_tax {
+  display: flex;
+  width: 70%;
+}

@@ -1,0 +1,37 @@
+.commitmentletter_container {
+  padding: 0px;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-print-color-adjust: exact;
+}
+.table_commitment {
+  width: 100%;
+}
+.table_commitment td {
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+}
+.table_commitment_instalments {
+  width: 100%;
+  border: 1px solid #dadada;
+}
+.table_commitment_instalments th {
+  color: white;
+  background-color: grey;
+  padding: 10px;
+}
+.table_commitment_instalments td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #dadada;
+}
+.hr_custon {
+  border: 0;
+  border-top: 1px solid black;
+}
+ol {
+  padding: 0px 0px 0px 30px;
+}
+ol li {
+  text-align: start;
+}

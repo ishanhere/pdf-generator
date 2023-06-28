@@ -1,0 +1,266 @@
+.reports_container {
+  font-family: "Arial";
+}
+.section_title {
+  background: #f0f8ff;
+  padding: 15px;
+  font-size: 18px;
+}
+.table-defination {
+  width: 100%;
+}
+.table-defination td {
+  border: 1px solid #dadada;
+  padding: 9px;
+  text-align: left;
+}
+.custom-table {
+  border: solid 1px #dadada;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: center;
+  width: 100%;
+}
+.custom-table thead tr {
+  text-align: center;
+}
+.custom-table thead th {
+  padding: 10px;
+}
+.custom-table tbody td {
+  border: solid 1px #dadada;
+  color: #333;
+  padding: 5px;
+  text-shadow: 1px 1px 1px #fff;
+  font-size: 90%;
+  border-bottom: 0;
+}
+.custom-table tbody td ol {
+  padding: 0px 0px 0px 20px !important;
+}
+.custom-table tbody td ol li {
+  text-align: start;
+}
+.tablev2 tbody td ol {
+  padding: 0px 0px 0px 14px !important;
+}
+.tablev2 tbody td ol li {
+  text-align: start;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.display-flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 110%;
+}
+
+h2.ant-typography {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  background: #fcfcfb;
+  border-radius: 12px;
+  padding: 10px 20px !important;
+}
+
+.container__wrapper {
+  box-sizing: border-box;
+  background: #fcfcfb;
+  border-radius: 12px;
+}
+
+.display-flex-col-center {
+  width: 200px;
+  margin: auto;
+  height: 5rem;
+}
+
+.display-flex-row {
+  display: flex;
+  gap: 1.5rem;
+}
+.ant-divider-vertical {
+  height: 4em;
+}
+
+.profile-value {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.ant-typography.ant-typography-secondary {
+  font-size: 12px;
+}
+
+.diver-size {
+  position: relative;
+  top: 4em;
+}
+
+.definitions-container {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+
+.definitions-container_first {
+  display: flex;
+  width: 30%;
+}
+
+.definitions-container_last {
+  display: flex;
+  width: 70%;
+}
+
+.definitions-container_header {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.row-dir {
+  display: flex;
+  position: relative;
+  right: 36px;
+}
+.second-text-color {
+  color: #252525;
+}
+
+.report-text {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.sparator {
+  display: flex;
+  clear: both;
+  width: 100%;
+  min-width: 100%;
+  margin: 24px 0;
+  box-sizing: border-box;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+.ant-table-thead > tr > th {
+  font-size: 12px !important;
+}
+.ant-table-thead > tr > th {
+  background-color: #f7f5f2 !important;
+}
+.ant-table-thead > tr > th {
+  border: 0px;
+}
+.ant-table-container {
+  border: 0px;
+}
+.ant-table-thead
+  > tr
+  > th:not(:last-child):not(.ant-table-selection-column):not(
+    .ant-table-row-expand-icon-cell
+  ):not([colspan])::before {
+  border: 0px;
+  background-color: #f7f5f2 !important;
+}
+.ant-divider-vertical {
+  border-left: 1px solid #cccccc !important;
+}
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  position: relative;
+  padding: 8px 8px;
+  overflow-wrap: break-word;
+  vertical-align: top;
+}
+
+.ant-table-thead > tr > th {
+  padding: 10px 10px 0px !important;
+  vertical-align: top;
+}
+.ant-table-row {
+  page-break-inside: avoid !important;
+}
+.container_pw_overview {
+  position: relative;
+  background: #f7f5f2;
+  padding: 20px 0px 5px !important;
+}
+.profile_value_pw_overview {
+  display: flex;
+  width: 100%;
+}
+.row_dir_pw_overview {
+  display: flex;
+  justify-content: space-around;
+}
+.display-flex-col-pw {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 110%;
+}
+.custom_col.ant-col-12 {
+  display: block;
+  flex: 0 0 54%;
+  max-width: 54%;
+}
+.custom_divider.ant-divider-horizontal {
+  margin: 15px 0px 15px !important;
+}
+.fx_color {
+  color: #040404;
+}
+.ant-table-placeholder {
+  display: none;
+}
+.ant-table .ant-table-empty {
+  page-break-inside: avoid;
+}
+.ant-table-thead > tr > th {
+  page-break-inside: avoid !important;
+}
+.ant-table-cell > tr > th > p {
+  page-break-inside: avoid !important;
+}
+.portfolio.ant-divider-vertical {
+  height: 6em !important;
+}
+.superScript {
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 2px;
+  margin-top: 6px;
+  font-style: italic;
+}
+.notes_reports {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 2px;
+  font-style: italic;
+  color: rgba(119, 119, 119, 1);
+}

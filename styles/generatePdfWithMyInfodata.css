@@ -1,0 +1,10 @@
+.generatePdfWithMyInfodata_container {
+  font-family: "Arial";
+}
+.info_box {
+  background: #f7f5f2;
+  padding: 15px;
+}
+.bg_yellow {
+  background: yellow;
+}
